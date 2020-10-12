@@ -1,0 +1,3 @@
+apt-get update
+apt-get -y install fluidsynth ffmpeg
+pip3 install midi2audio google python-telegram-bot beautifulsoup4 requests filetype pydub PySocks eyeD3
