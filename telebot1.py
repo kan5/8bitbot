@@ -15,9 +15,9 @@ import zipfile
 import shutil
 import os, fnmatch, sys
 
-TB_TOKEN = '1158668959:AAGfQxKXHm3UoXK9Y15GVuEiYGfNsNukc4E'
-DF_TOKEN = '0576b8c465a44e33a6b877c6580a5bde'
-proxy = {'proxy_url': 'socks5h://163.172.152.192:1080'}
+TB_TOKEN = ''
+DF_TOKEN = ''
+
 keyboards = {'full': [['NES', 'CAVE', 'NINTENDO', 'ATARI'], ['PONG', 'STAIN', 'MOBILE', 'FAMICOM']], 'most': [['NES', 'CAVE']]}
 root_dir = os.path.abspath(os.path.dirname(sys.argv[0]))
 black_names = []
